@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrap {
+    padding: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.red {
+    color: #871719;
+}
+
+/******************** Header **************************/
+
+.header {
+    background-color: #333333;
+    background-image: url('../img/hero-bg-pizza.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/********************* Navigaation *********************/
+
+nav {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav a {
+    padding: .5rem;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #871719;
+}
+
+/*********************  hero button  *********************/
+
+.hero-button {
+    font-size: 1.4rem;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    padding: 6px 12px;
+}
+
+.hero-button:hover {
+    border-color: #871719;
+    background-color: #871719;
+}
+
+
+/********************* Newsletter  *********************/
+
+#nwsltr {
+    background-color: #E8D5B5;
+}
+
+.nwsltr-label {
+    margin: 0 0 16px 0;
+    display: block;
+    width: 100%;
+}
+
+.nwsltr-input{
+    border: 1px solid #c0af8e;
+    border-radius: 3px;
+    height: 40px;
+    padding: 8px;
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+}
+
+.nwsltr-btn {
+    background-color: #871719;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    display: block;
+    width: 100%;
+}
+
+.nwsltr-btn:hover{
+    background-color: #800080;
+}
+
+.small-txt {
+    font-size: .8rem;
+}
+
+
+/****** Stopped here 5-31-17 ****************************************/
+
+
+
+
+
+
+
