@@ -45,17 +45,25 @@
     <section id="nwsltr" class="nwsltr">
         <div class="wrap">
     <!-- Mail List -->
+            <section id="nwsltr" class="nwsltr">
+        <div class="wrap">
             <h2>Join Louie's List today, and get a free slice!</h2>
+            
             <form action="/#my-handling-form-page" method="post">
-                <label class="nwsltr-label" for="email-field">Email: </label>
-                <input class="nwsltr-input" type="email" placeholder="You@YourEmail.com" id="email-field">
-                <button class="nwsltr-btn" type="submit">Sign Up</button>
+                <label class="nwsltr-label">Email</label>
+                <input class="nwsltr-input" type="email" placeholder="jsmith@gmail.com" id="email-field">
+                <p class="validation-message" id="email-validation-message">Must be a valid email address.</p>
+                <button class="nwsltr-btn" id="email-submit" type="submit" >Sign Up</button>
             </form>
-            <p class="small-txt">We promise not to SPAM you, unless you want it on you're pie! Data charges may apply if your still using dial-up or AOL.</p>
+
+            <p class="small-txt">We promise not to SPAM you, unless you want it on your pie! Data charges may apply if your still using dial-up or AOL.</p>
+        </div>
+    </section>
     <!-- /Mail List -->
         </div>
     </section>
     <!-- History -->
+    
 
     <!-- /History -->
 
@@ -76,9 +84,20 @@
     <!-- Footer -->
 
     <!-- /Footer -->
-
+<footer>
+    <div class="wrap">
+        <p>© Copyright 2016 Louie’s Pizza</p>
+        <p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+        </p>
+    </div>
+</footer>
 
     <!-- Insert JavaScript Here -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
 
